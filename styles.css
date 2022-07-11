@@ -4,6 +4,7 @@ body {
   text-align: center;
 }
 
+
 h1 {
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
@@ -25,7 +26,7 @@ h3 {
 }
 
 hr {
-  border: dotted rgb(105, 59, 4) 6px;
+  border: dotted #0F0E0E 6px;
   border-bottom: 0;
   width: 4%;
   margin: 100px auto;
@@ -44,23 +45,6 @@ p {
   margin: 0;
 }
 
-
-.cloud {
-  position: absolute;
-  right: 400px;
-}
-
-.cloud1 {
-  position: absolute;
-
-}
-
-.cloud2 {
-  position: absolute;
-  right: 450px;
-  bottom: 200px;
-}
-
 .footer-link {
   margin: 10px;
   text-decoration: none;
@@ -75,22 +59,13 @@ p {
   background-color: #79DAE8
 }
 
-.mountain {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  position: relative;
-  top: 8px;
-}
-
 .myskills {
   margin-bottom: 10px;
 }
 
 .profile_pic {
+  padding: 100px;
   border-radius: 50%;
-  height: 230px;
-  width: 200px;
-
 }
 
 .top-container {
@@ -107,6 +82,12 @@ p {
 .bottom-container {
   background-color: #79DAE8;
   padding: 50px 0 20px;
+}
+
+.clock {
+  color: #79DAE8;
+  font-size: 3rem;
+  padding: 20px 0;
 }
 
 .p0 {
@@ -150,66 +131,46 @@ p {
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  float:left;
 }
 
 .skill_image2 {
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  float: right;
 }
 
 .skill_image3 {
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  float: left;
 }
 
-.btn {
-   background: #2747E0;
-   background-image: -webkit-linear-gradient(top, #2747E0, #57ADE8);
-   background-image: -moz-linear-gradient(top, #2747E0, #57ADE8);
-   background-image: -ms-linear-gradient(top, #2747E0, #57ADE8);
-   background-image: -o-linear-gradient(top, #2747E0, #57ADE8);
-   background-image: -webkit-gradient(to bottom, #2747E0, #57ADE8);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   height: 0;
-   line-height: 0;
-   color: #FFFFFF;
-   font-family: Tahoma;
-   width: 193px;
-   font-size: 30px;
-   font-weight: 400;
-   padding: 46px;
-   -webkit-box-shadow: 1px 1px 7px 0 #171719;
-   -moz-box-shadow: 1px 1px 7px 0 #171719;
-   box-shadow: 1px 1px 7px 0 #171719;
-   text-shadow: 0 10px 7px #000000;
-   border: solid #FFFFFF 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+.myButton {
+	box-shadow: 0 1px 0 0 #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #b57816 100%);
+	background-color:#ffec64;
+	border-radius:17px;
+	border:4px solid #bd7f22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Courier New;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 19px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #ffee66;
 }
-
-.btn:hover {
-   border: solid #337FED 2px;
-   background: #97B6EC;
-   background-image: -webkit-linear-gradient(top, #97B6EC, #1B62B2);
-   background-image: -moz-linear-gradient(top, #97B6EC, #1B62B2);
-   background-image: -ms-linear-gradient(top, #97B6EC, #1B62B2);
-   background-image: -o-linear-gradient(top, #97B6EC, #1B62B2);
-   background-image: -webkit-gradient(to bottom, #97B6EC, #1B62B2);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+.myButton:hover {
+	background:linear-gradient(to bottom, #b57816 5%, #ffec64 100%);
+	background-color:#b57816;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 
 .footer-link {
   padding: 50px 0;
 }
+
